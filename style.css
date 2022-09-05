@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(188, 253, 253);
+    margin: auto;
+}
+#mainContainer{
+    display: flex;
+}
