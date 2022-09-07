@@ -11,22 +11,24 @@
 
 <body>
 
-   <div id="mainContainer" >
-    <h1>Multiplication Table App</h1>
+   
+    <h1> <u> <b> Multiplication Table App</h1></u></b>
 
     <form onsubmit="printTable(); return false">
-        which table: <input type="text" id="num" required>
+       <u> which table</u>
         <br>
-        how many times: <input type="text" id="times" required value="10">
+         <input type="number" id="num" required>
+        <br>
+      <u>how many times</u>
+        <br>
+         <input type="number" id="times" required value="10">
 
-        <br>
+        <br><br>
         <button type="submit">Generate</button>
     </form>
 
     <p id="result"></p>
-    </div>
-
-
+    
     <script>
         function printTable() {
             let num = +document.querySelector("#num").value;
